@@ -1,0 +1,106 @@
+body {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4, #ffd1ff, #ffd1ff);
+}
+
+.squircle {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-inline: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-content: center;
+}
+
+.squircle h1 {
+    align-self: center;
+}
+
+.squircle p {
+    align-self: center;
+}
+
+.squircle a {
+    font-size: 16px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.squircle h1, .squircle p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.squircle h1, .squircle p, .squircle a {
+    text-align: center;
+    margin: 0 auto;
+}
+.squircle {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-inline: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.squircle h1 {
+    align-self: flex-start;
+}
+
+.squircle p {
+    align-self: center;
+}
+
+.squircle a {
+    font-size: 16px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.squircle h1, .squircle p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.squircle h1, .squircle p, .squircle a {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 20px; /* Rectangular shape */
+    opacity: 0.9;
+    animation: fall linear infinite;
+}
+  
+@keyframes fall {
+    0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(110vh) rotate(360deg);
+      opacity: 0;
+    }
+}
+
+
